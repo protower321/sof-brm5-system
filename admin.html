@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+<h1>Admin Panel</h1>
+
+<input id="user" placeholder="Username">
+
+<button onclick="promoteUser()">Promote</button>
+<button onclick="demoteUser()">Demote</button>
+
+<input id="reason" placeholder="Discipline Reason">
+<button onclick="disciplineUser()">Discipline</button>
+
+<input id="unit" placeholder="New Unit">
+<button onclick="transferUser()">Transfer</button>
+
+<script src="database.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
